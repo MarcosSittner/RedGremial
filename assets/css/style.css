@@ -3,8 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    font-family: sans-serif;
-} 
+   } 
 
 /* Menu de contactos */
 #header{display:inline; float:left; width:100%; margin-top:20px}
@@ -23,14 +22,21 @@
 .logo img:hover{background-color:#ff0000}
 .logo img{align-items:center}
 .header_bottom{background-color:#fff; display:inline; width:50%}
+
+
 /* Menu de navegacion */
 
-#navArea{float:left; display:inline; width:100%; background-color:#fff; justify-content: center;}
+#navArea{float:left; display:inline; width:100%; background-color:#fff}
+.alineacion{position: absolute; top: 0%; left: 100%}
 .navbar{border:none; border-radius:0}
-.navbar-inverse .navbar-nav > li > a{border-left:1px solid #383838; color:#ddd; font-family:'Oswald',sans-serif; display:inline-block; height:50px; line-height:50px; padding:0 14px; text-shadow:0 1px 1px #000; text-transform:uppercase; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.navbar-inverse .navbar-nav > li > a{border-left:1px solid #ff0000; color:#ddd; 
+font-family:'Oswald',sans-serif; display:inline-block; height:50px; 
+line-height:50px; padding:0 14px; text-shadow:0 1px 1px #000; 
+text-transform:uppercase; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; 
+-ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .navbar-inverse .navbar-nav > li:first-child a{border:none}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{ color:#fff}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{ color:#fff}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{ color:#ff0000}
 .main-nav ul li a{}
 .navbar-collapse{ padding-left:0}
 .mobile-show{display:none}
@@ -220,9 +226,9 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
 
 
 /* FOOTER */
-.gridContainer{display: grid;grid-template-columns: 1fr 2fr 1fr; grid-template-rows: 1fr; padding: 20px; background-color: #000;justify-items: center;}
+.gridContainer{display: grid;grid-template-columns: 1fr 2fr 1fr; grid-template-rows: 1fr; 
+    padding: 20px; background-color: #1b1b1b;justify-items: center; color: #ddd;}
 .footer_bottom{float:left; display:inline; width:100%; padding:10px 30px; background-color:#000000; color:#ccc}
-.espaciadoFooter{align-items: normal;}
 .copyright{float:left; width:50%; padding-top:5px; text-align:left}
 .copyright a{color:#ccc}
 .developer{float:right; width:50%; text-align:right; padding-top:5px; color:#222}
@@ -287,7 +293,7 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
 .error_page > span{display:inline-block; height:2px; text-align:center; width:100px}
 .error_page > a{color:#fff; display:inline-block; padding:5px 10px}
 .error_page > a:hover{opacity:0.75}
-.contact_area{float:left; display:inline; width:100%; margin-bottom:30px}
+.contact_area{float:left; width:100%; margin-bottom:30px}
 .contact_area > h2{color:#fff; display:inline-block; font-size:20px; padding:7px 10px 5px; text-transform:uppercase; margin-bottom:30px}
 .contact_area > p{margin-bottom:20px}
 .contact_form input[type="text"], .contact_form input[type="email"], .contact_form textarea{border-radius:0; margin-bottom:30px}
