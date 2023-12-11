@@ -11,16 +11,19 @@
 .header_top_left{float:left; display:inline; width:50%}
 .top_nav{text-align:left}
 .top_nav li{display:inline-block}
-.top_nav li a{display:inline-block; border-right:1px solid #333; color:#fff; font-size:11px; font-weight:bold; padding:20px 15px; text-transform:uppercase; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.top_nav li a{display:inline-block; border-right:1px solid #333; color:#fff; 
+    font-size:11px; font-weight:bold; padding:20px 15px; text-transform:uppercase; 
+    -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .top_nav li a:hover{background-color:#ff0000}
 .header_top_right{float:left; display:inline; width:50%; text-align:right}
-.header_top_right > p{color:#fff; display:inline-block; float:right; font:bold 12px sans-serif; margin-bottom:0; padding-bottom:20px; padding-right:8px; padding-top:20px}
+.header_top_right > p{color:#fff; display:inline-block; float:right; 
+    font:bold 12px sans-serif; margin-bottom:0; padding-bottom:20px; padding-right:8px; padding-top:20px}
 
 
 /* Logo Principal */
-.logo img{max-width:50%; justify-self: center;}
+.logo .logo_area .logoImagen{display: flex; justify-content: center; 
+    width: 100%; height: auto;}
 .logo img:hover{background-color:#ff0000}
-.logo img{align-items:center}
 .header_bottom{background-color:#fff; display:inline; width:50%}
 
 
@@ -44,6 +47,11 @@ text-transform:uppercase; -webkit-transition:all 0.5s; -mz-transition:all 0.5s;
 .dropdown-menu{background-color:#222}
 .dropdown-menu > li > a{clear:both; color:#ddd; background-color:#222; padding:10px 20px; font-family:'Oswald',sans-serif; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{color:#fff}
+
+/* Titulo principal */
+.tituloPrincipal{display: flex; justify-content: center; 
+    width: 100%; height: auto; color:#ff0000; font-family:Oswald,sans-serif; 
+    font-size:15px; padding:auto; position:relative;}
 
 /* Barra de noticias cortas */
 
