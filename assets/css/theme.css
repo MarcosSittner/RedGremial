@@ -1,25 +1,7 @@
-.scrollToTop{background-color:#ff0000; color:#fff}
-.scrollToTop:hover, .scrollToTop:focus{background-color:#fff; color:#ff0000; border-color:1px solid #ff0000}
-.logo > span{color:#ff0000}
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{background-color:#ff0000}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{background-color:#d083cf}
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:#ff0000}
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{background-color:#d083cf}
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:#ff0000}
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{background-color:#d083cf}
-.latest_newsarea span{background:none repeat scroll 0 0 #ff0000}
-.latest_post > h2 span{background:none repeat scroll 0 0 #ff0000}
-#prev-button{color: #ff0000}
-#next-button{color:#ff0000}
-.single_post_content > h2 span{background:none repeat scroll 0 0 #ff0000}
-.single_sidebar > h2 span{ background:none repeat scroll 0 0 #ff0000}
-.bsbig_fig figcaption a:hover{color:#ff0000}
-.spost_nav .media-body > a:hover{color:#ff0000}
-.cat-item a:hover{background-color:#ff0000}
-.nav-tabs > li > a:hover, .nav-tabs > li > a:focus{background-color:#ff0000}
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{background-color:#ff0000}
-.single_sidebar > ul > li a:hover{color:#ff0000}
-.footer_widget > h2:hover{color:#ff0000}
+
+
+
+
 .tag_nav li a:hover{color:#ff0000; border-color:#ff0000}
 .copyright a:hover{color:#ff0000}
 .post_commentbox a:hover, .post_commentbox span:hover{color:#ff0000}
