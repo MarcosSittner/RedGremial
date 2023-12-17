@@ -407,27 +407,44 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
 background-color: white;}
 
 
 .gridContainer .gridInfo {
     grid-column: 1/3;
-    grid-row: 1/3;
+    
 }
 
 .gridContainer .asideUltimas {
 
     grid-column: 3/4;
-    grid-row: 1/3;
+
 }
 
-section .gridImage {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+.gridContainer .gridMasInfo {
     grid-column: 1/3;
-    grid-row: 2/3;}
 
+}
+
+.gridContainer .asidePublicidad {
+    grid-column: 3/4;
+}
+
+.gridContainer-Slide {
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+background-color: white;}
+
+.gridContainer-Slide .gridMasInfoSlide {
+    grid-column: 1/2;
+
+}
+
+.gridContainer-Slide .gridMasInfoSlide-derecho {
+    grid-column: 2/3;
+}
 
 
 /* flecha hacia el home */
@@ -450,7 +467,7 @@ section .gridImage {
 @font-face{font-family:"Open Sans"; font-style:normal; font-weight:400; src:local("Open Sans"),local("OpenSans"),url("../fonts/OpenSans-400.woff") format("woff")}
 
 /* media queries */
-@media(max-width:1199px ){.logo_area{width:34%}.add_banner{width:580px}.nav-tabs > li{width:32.3%}.photograph_nav li{width:31.5%}
+@media(max-width:1199px ){.logo_area{width:34%}.add_banner{width:580px}.nav-tabs > li{width:32.3%}.photograph_nav li{width:31.5%}}
 @media(max-width:991px ){.add_banner{display:none}.logo_area{width:100%}.nav > li > a{padding:8px 8px}.latest_post_container{height:380px;overflow:hidden}#next-button{bottom:-2px}.single_iteam{height:415px}.photograph_nav li{width:47.7%}.related_post .spost_nav li{width:100%}.nav-tabs > li{width:31.9%}.nav-tabs > li > a{font-size:13px;padding-left:0 !important;padding-right:0 !important;text-align:center}}
 @media(max-width:767px ){.navbar-collapse{padding-left:15px}.mobile-show{display:block}.desktop-home{display:none}.navbar-inverse .navbar-nav > li > a{display:block}.header_top_left{width:100%}.header_top_right > p{display:none}.social_area{display:none}.single_iteam a{height:100%}.single_iteam a > img{height:100%}.error_page > a{margin-bottom:25px}.nav-tabs > li{width:32.6%}}
 @media(max-width:480px ){.top_nav{text-align:center}.single_post_content_left{width:100%}.single_post_content_right{width:100%}.fashion{width:100%}.technology{width:100%}.copyright{text-align:center;width:100%}.developer{text-align:center;width:100%}.single_iteam{height:300px}.photo_grid figure{height:200px}.photograph_nav li{width:100%;margin-left:0}.nav > li > a{padding:8px 12px}.nav-tabs > li{width:32.6%}}
