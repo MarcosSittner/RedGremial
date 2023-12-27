@@ -447,6 +447,101 @@ background-color: white;}
 }
 
 
+/*Pagina listado de sindicatos*/
+
+.gridContainer-Slide-Sindicatos {
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+background-color: white;}
+
+.gridContainer-Slide .gridMasInfoSlide-Sindicatos {
+    grid-column: 1/2;
+
+    
+}
+
+.gridContainer-Slide .gridMasInfoSlideCenter {
+    grid-column: 2/3;
+}
+
+.gridContainer-Slide .gridMasInfoSlide-derecho-Sindicatos {
+    grid-column: 3/4;
+}
+
+.u-section-1 {
+    background-image: none;
+  }
+  
+  .u-section-1 .u-sheet-1 {
+    min-height: 1446px;
+  }
+  
+  .u-section-1 .u-list-1 {
+    grid-template-rows: auto auto auto;
+    margin-top: 34px;
+    margin-bottom: 60px;
+  }
+  
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: calc(50% - 11.5px) calc(50% - 11.5px);
+    min-height: 218px;
+    grid-gap: 23px 23px;
+  }
+  
+  .u-section-1 .u-list-item-1 {
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
+  }
+  
+  .u-section-1 .u-container-layout-1 {
+    padding: 30px;
+  }
+  
+  .u-section-1 .u-image-1 {
+    width: 210px;
+    height: 210px;
+    background-image: url("/images/0fedACEITERA.png");
+    background-position: 50% 50%;
+    margin: 0 auto;
+  }
+  
+  .u-section-1 .u-text-1 {
+    letter-spacing: normal;
+    text-transform: none;
+    font-size: 2.25rem;
+    font-weight: normal;
+    margin: 47px auto 0;
+  }
+  
+  .u-section-1 .u-text-2 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 20px auto 0;
+  }
+  
+  .u-section-1 .u-text-3 {
+    background-image: none;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-style: normal;
+    margin: 30px 0 0 auto;
+  }
+  
+  .u-section-1 .u-btn-1 {
+    background-image: none;
+    padding: 0;
+  }
+  
+  .u-section-1 .u-social-icons-1 {
+    height: 23px;
+    min-height: 16px;
+    width: 88px;
+    min-width: 68px;
+    margin: 88px auto 0;
+  }
+
 /* flecha hacia el home */
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
