@@ -1,0 +1,40 @@
+.main {
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 2fr 1fr;
+  background-color: white;
+}
+.main_articulo {
+  color: black;
+  padding: 0px 20px 0px 20px;
+  grid-column: 1/2;
+}
+.main_articulo h2 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 10px;
+}
+.main_articulo p {
+  text-align: left;
+  font-size: 24px;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+.main_articulo img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-bottom: 20px;
+}
+.main_articulo article {
+  text-align: left;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.main_main_ultimasNoticias {
+  grid-column: 2/3;
+}/*# sourceMappingURL=main.css.map */
